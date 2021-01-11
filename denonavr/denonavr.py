@@ -30,7 +30,8 @@ _LOGGER = logging.getLogger("DenonAVR")
 
 DEVICEINFO_AVR_X_PATTERN = re.compile(
     r"(.*AV(C|R)-(X|S).*|.*SR500[6-9]|.*SR60(07|08|09|10|11|12|13)|."
-    r"*SR70(07|08|09|10|11|12|13)|.*SR501[3-4]|.*NR1604|.*NR1710)")
+    r"*SR70(07|08|09|10|11|12|13)|.*SR501[3-4]|.*NR1604|.*NR1710"
+    r"|.*AV8805|.*PM7000N)")
 
 DEVICEINFO_COMMAPI_PATTERN = re.compile(r"(0210|0220|0250|0300|0301)")
 
